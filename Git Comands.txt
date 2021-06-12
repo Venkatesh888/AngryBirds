@@ -1,0 +1,65 @@
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~
+$ git --version
+git version 2.32.0.windows.1
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~
+$ pwd
+/c/Users/Venkatesh
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~
+$ cd desxtop
+bash: cd: desxtop: No such file or directory
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~
+$ cd desktop
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~/desktop
+$
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~/desktop
+$ mkdir Class26
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~/desktop
+$ cd Class26
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~/desktop/Class26
+$ git config --global user.name "Venkatesh888"
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~/desktop/Class26
+$ git config --global user.email "dvk260808@gmail.com"
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~/desktop/Class26
+$ git clone "https://github.com/whitehatjr/AngryBirdsStage2.5StudentActivity"
+Cloning into 'AngryBirdsStage2.5StudentActivity'...
+remote: Enumerating objects: 44, done.
+remote: Total 44 (delta 0), reused 0 (delta 0), pack-reused 44
+Receiving objects: 100% (44/44), 2.54 MiB | 1.39 MiB/s, done.
+Resolving deltas: 100% (13/13), done.
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~/desktop/Class26
+$ cd AngryBirdsStage2.5StudentActivity/
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~/desktop/Class26/AngryBirdsStage2.5StudentActivity (master)
+$ ls
+BaseClass.js  Bird.js  Box.js  Ground.js  Log.js  Pig.js  README.md  index.html  matter.js  p5.dom.min.js  p5.min.js  p5.sound.min.js  sketch.js  sprites/  style.css
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~/desktop/Class26/AngryBirdsStage2.5StudentActivity (master)
+$ git remote add class26
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~/desktop/Class26/AngryBirdsStage2.5StudentActivity (master)
+$ git remote add class26 https://github.com/Venkatesh888/AngryBirds.git
+
+Venkatesh@DESKTOP-G24L8NT MINGW64 ~/desktop/Class26/AngryBirdsStage2.5StudentActivity (master)
+$ git push -u class26
